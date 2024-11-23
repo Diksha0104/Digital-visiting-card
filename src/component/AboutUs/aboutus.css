@@ -20,9 +20,10 @@
   }
   
   .about-subtitle {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     margin: 20px 0;
+    font-family: jost, sans-serif;
   }
   
   .about-description {
@@ -34,7 +35,7 @@
   
   .about-list {
     text-align: left;
-    margin: 20px auto;
+    margin-top: 35px;
     padding-left: 20px;
     max-width: 600px;
     color: #555;
