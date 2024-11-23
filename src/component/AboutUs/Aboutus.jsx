@@ -1,6 +1,6 @@
 import React from "react";
 import "./aboutus.css"; // Import the CSS file for styling
-
+import DoneAllIcon from '@mui/icons-material/DoneAll';
 const AboutUs = () => {
   return (
     <div className="about-container">
@@ -15,9 +15,9 @@ const AboutUs = () => {
         card again.
       </p>
       <ul className="about-list">
-        <li>Design your digital visiting card in 2 minutes</li>
-        <li>Digital Visiting Card is accessible anytime from anywhere</li>
-        <li>Through a variety of channels</li>
+        <li><DoneAllIcon style ={{color:"blue", fontSize:"20px", marginRight:"10px"}}/>Design your digital visiting card in 2 minutes</li>
+        <li><DoneAllIcon style ={{color:"blue", fontSize:"20px", marginRight:"10px"}}/>Digital Visiting Card is accessible anytime from anywhere</li>
+        <li><DoneAllIcon style ={{color:"blue", fontSize:"20px", marginRight:"10px"}}/>Through a variety of channels</li>
       </ul>
     </div>
   );
