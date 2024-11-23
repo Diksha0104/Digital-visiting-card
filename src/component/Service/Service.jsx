@@ -7,7 +7,7 @@ import Digital from '@mui/icons-material/Speed';
 const Services = () => {
   return (
     <div className="services-container">
-      <h2 className="services-title">SERVICES</h2>
+      <h2 className="service-title">SERVICES</h2>
       <div className="service-divider"></div>
       <p className="services-description">
         Our digital business card platform makes designing a card simple, convenient, and reliable.
