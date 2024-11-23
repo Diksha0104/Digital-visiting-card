@@ -11,13 +11,13 @@ function App() {
 
   return (
     <>
-      <NavBar/>
-      <Banner/>
-      <Aboutus/>
-      <Service/>
-      <Feature/>
-      <Pricing/>
-      <Demo_video/>
+      <div className='navbar'><NavBar/></div>
+      <div className='banner'><Banner/></div>
+      <div className='aboutus'><Aboutus/></div>
+      <div className=' service'><Service/></div>       
+      <div className='feature'><Feature/></div>
+      <div className='pricing'><Pricing/></div>
+      <div className='demo'><Demo_video/></div>
     </>
   )
 }
