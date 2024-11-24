@@ -31,6 +31,7 @@
     padding: 20px;
     width: 322px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid blue; /* Add blue top border */
   }
   
   .pricing-card h3 {
