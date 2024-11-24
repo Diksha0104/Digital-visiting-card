@@ -7,6 +7,7 @@ import Feature from './component/Feature/Feature.jsx';
 import Pricing from './component/Pricing/Pricing.jsx';
 import Demo_video from './component/Demo_video/demo.jsx';
 import Contact from './component/Contact/Contact.jsx';
+import Footer from './component/Footer/Footer.jsx';
 function App() {
   
 
@@ -20,6 +21,7 @@ function App() {
       <div id='pricing' className='pricing'><Pricing /></div>
       <div id='demo' className='demo'><Demo_video /></div>
       <div id='contact' className='contact'><Contact/></div> {/* Add the contact section if needed */}
+      <div className='footer'><Footer/></div>
     </>
   );
 }
