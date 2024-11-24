@@ -5,7 +5,7 @@ import hero_image from "../../images/hero-img.png"; // Correct path from compone
 
 const Banner = () => {
   return (
-    <section className="banner">
+    <section className="banner">  
       <div className="banner-content">
         <h1 className=" content-h1">Inspire Your Client Digitally</h1>
         <p>

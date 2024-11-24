@@ -9,8 +9,13 @@
   
   .banner-content {
     max-width: 50%;
-    margin: 0px 0px 10px;
-  }
+    margin: 0 0 10px 0; /* Removed right margin and added left alignment */
+    padding: 20px; /* Optional: Add padding for better spacing */
+    text-align: left; /* Align the text to the left */
+    position: relative; /* If needed for more precise control */
+    left: 0; /* Position the banner content towards the left */
+}
+
   .content-h1{
     margin: 0 0 10px 0;
     font-size: 48px;
@@ -51,11 +56,16 @@
     border-radius: 5px;
     cursor: pointer;
   }
-  
-  .banner-image img {
-    max-width: 50%;
+  .banner-image {
+    width: 50%; /* Allow the container to expand fully if needed */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+}
+
+.banner-image img {
+    width: 80%; /* Increase the size to 80% of the container */
     height: auto;
     border-radius: 10px;
-    margin-left: 350px;
-  }
+}
+
   
