@@ -1,5 +1,11 @@
 import React from "react";
 import "./contact.css"; // You can style it accordingly
+import ShareIcon from '@mui/icons-material/Share';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const ContactUs = () => {
   return (
@@ -52,11 +58,12 @@ const ContactUs = () => {
 
           {/* Social Icons */}
           <div className="social-icons">
-            <a href="#facebook">FB</a>
-            <a href="#twitter">TW</a>
-            <a href="#linkedin">LI</a>
-            <a href="#youtube">YT</a>
-            <a href="#instagram">IG</a>
+            <a href="#facebook"><ShareIcon/></a>
+            <a href="#facebook"><FacebookIcon/></a>
+            <a href="#twitter"><TwitterIcon/></a>
+            <a href="#linkedin"><LinkedInIcon/></a>
+            <a href="#youtube"><YouTubeIcon/></a>
+            <a href="#instagram"><InstagramIcon/></a>
           </div>
 
           <div className="policies">
