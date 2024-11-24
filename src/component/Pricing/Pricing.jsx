@@ -5,6 +5,7 @@ const Pricing = () => {
   return (
     <div className="pricing-container">
       <h2 className="pricing-title">PRICING</h2>
+      <div className="pricing-divider"></div>
       <div className="pricing-cards">
         <div className="pricing-card">
           <h3>One Business Card endless possibilities</h3>

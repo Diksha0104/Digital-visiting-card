@@ -10,6 +10,12 @@
     font-weight: bold;
     margin-bottom: 20px;
   }
+  .pricing-divider {
+    width: 60px;
+    height: 2px;
+    background-color: #007bff;
+    margin: 10px auto;
+  }
   
   .pricing-cards {
     display: flex;
