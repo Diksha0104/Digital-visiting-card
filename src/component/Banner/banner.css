@@ -1,3 +1,13 @@
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.8); /* Start zoomed out */
+    opacity: 0; /* Start transparent */
+  }
+  100% {
+    transform: scale(1); /* End at normal size */
+    opacity: 1; /* End fully visible */
+  }
+}
 .banner {
     display: flex;
     justify-content: space-between;
@@ -14,6 +24,9 @@
     text-align: left; /* Align the text to the left */
     position: relative; /* If needed for more precise control */
     left: 0; /* Position the banner content towards the left */
+    animation: zoomIn 1.2s ease-out; /* Adjust duration and timing function */
+    opacity: 0;
+    animation-fill-mode: forwards; /* Keep the final state after animation */
 }
 
   .content-h1{
@@ -60,12 +73,24 @@
     width: 50%; /* Allow the container to expand fully if needed */
     display: flex;
     justify-content: center; /* Center the image horizontally */
+    animation: zoomIn 1.2s ease-out; /* Adjust duration and timing function */
+    opacity: 0;
+    animation-fill-mode: forwards; /* Keep the final state after animation */
+}
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust this value for more or less movement */
+  }
 }
 
 .banner-image img {
     width: 80%; /* Increase the size to 80% of the container */
     height: auto;
     border-radius: 10px;
+    animation: upDown 3s ease-in-out infinite;
 }
 
   
