@@ -1,3 +1,22 @@
 .aboutus{
     background-color: white;
 }
+/* App.css */
+
+/* Common animation styles for all sections */
+.section {
+    opacity: 0;
+    transform: translateY(50px); /* Start with the section 50px below */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .section.show {
+    opacity: 1;
+    transform: translateY(0); /* Move to the original position */
+  }
+  
+  
+  .aboutus, .service, .feature, .pricing, .demo, .contact {
+    padding: 40px 0;
+  }
+  
